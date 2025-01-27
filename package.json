@@ -1,0 +1,56 @@
+{
+  "name": "podtree-web",
+  "version": "1.0.0",
+  "description": "landing page for podtree",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zlkca/podtree-web.git"
+  },
+  "keywords": [
+    "react",
+    "landing",
+    "web",
+    "page"
+  ],
+  "author": "zlkca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zlkca/podtree-web/issues"
+  },
+  "homepage": "https://github.com/zlkca/podtree-web#readme",
+  "dependencies": {
+    "qrcode.react": "^4.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.1.1",
+    "react-router-dom": "^7.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@eslint/js": "^9.17.0",
+    "babel-loader": "^9.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.3",
+    "globals": "^15.14.0",
+    "html-webpack-plugin": "^5.6.3",
+    "prettier": "^3.4.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}

@@ -1,0 +1,1 @@
+export const ApiUrl = 'https://uoqpkgvv97.execute-api.us-east-1.amazonaws.com';
