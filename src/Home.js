@@ -10,7 +10,7 @@ export const Home = () => {
                 <p className="hero-subtitle">
                     Streamline operations, enhance communication, and provide better care with our comprehensive school management software
                 </p>
-                <a href="https://admin.podtree.ca/">
+                <a href="https://admin.podtree.ca/signup">
                 <button className="hero-button">Try the Demo</button>
                 </a>
                 
