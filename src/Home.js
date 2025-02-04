@@ -13,7 +13,6 @@ export const Home = () => {
                 <a href="https://admin.podtree.ca/signup">
                 <button className="hero-button">Try the Demo</button>
                 </a>
-                
             </div>
         </div>
     </div>
